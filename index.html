@@ -4,79 +4,95 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ivan's Professional Portfolio</title>
+    <title>Professional Portfolio</title>
     <link rel="stylesheet" href="./assets/style.css">
 </head>
-
 <body>
-    <header class="header">
-            <h1>
-                Ivan Fomin
-            </h1>
-            <nav>
-                <a href="#about">About Me</a>
-                <a href="#work">Work</a>
-                <a href="#footer">Contact</a>
-                <a href="#">Resume</a>
+    <header class="topPage">
+        <nav class="navBar">
+            <div class="title">
+                <h1>Ivan Fomin</h1>
+            </div>
+            
+            <ul>
+                <li><a href="#aboutMe">About Me</a></li>
+                <li><a href="#projects">My Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+                <li><a href="">Resume</a></li>
+            </ul>
         </nav>
-        </header>
-
-    <main>
-        <div class="photo">
-            <img class="headerphoto" src="./assets/assets/headerphoto.png" alt="header photo here">
-            <h2 class="subtitle">Scroll to see more!</h2>
-        </div>
-        <section class="about">
-            <div id="about">
-                <h2 class="aboutme">About Me</h2>
-                <!-- <div class="vl"></div> -->
-                <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil animi quisquam distinctio officia consectetur voluptas amet, incidunt repudiandae perspiciatis quis tenetur illum corrupti voluptatum eveniet odio nesciunt corporis fugiat necessitatibus!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil animi quisquam distinctio officia consectetur voluptas amet, incidunt repudiandae perspiciatis quis tenetur illum corrupti voluptatum eveniet odio nesciunt corporis fugiat necessitatibus!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil animi quisquam distinctio officia consectetur voluptas amet, incidunt repudiandae perspiciatis quis tenetur illum corrupti voluptatum eveniet odio nesciunt corporis fugiat necessitatibus!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil animi quisquam distinctio officia consectetur voluptas amet, incidunt repudiandae perspiciatis quis tenetur illum corrupti voluptatum eveniet odio nesciunt corporis fugiat necessitatibus!</p>
+        <section class="headerPhoto">
+            <div class="h2div">
+                <h2>Scroll down to Learn More About Me!</h2>
             </div>
         </section>
+    </header>
 
-                <div class="products">
-                    <h2 class="mywork">Work</h2>
-                
-                <section class="card" id="card1">
-                    <img src="./assets/assets/surf.png" alt="surf photo">
-                    <h2>New York City</h2>
-                </section>
-
-                <section class="card">
-                    <img src="./assets/assets/led.png" alt="led photo">
-                    <h2>Dubai</h2>
-                </section>
-
-                <section class="card">
-                    <img src="./assets/assets/calculator.png" alt="calculator photo">
-                    <h2 class="card3text">Sahara</h2>
-                </section>
-
-                <section class="card">
-                    <img src="./assets/assets/puzzle.png" alt="puzzle photo">
-                    <h2 class="cardtext">San Francisco</h2>
-                </section>
-
-                <section class="card">
-                    <img src="./assets/assets/run.png" alt="run photo">
-                    <h2 class="cardtext">Sky</h2>
-                </section>
-                
+    <main>
+        <section class="aboutMe" id="aboutMe">
+            <div class="aboutHeader">
+                <h2>About Me</h2>
             </div>
+            <div class="infoContainer">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quam pariatur totam excepturi cupiditate, commodi quaerat dolore incidunt nobis unde, mollitia quia aspernatur molestiae in iste quis tempore, deserunt amet.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora maxime aliquid nihil laborum dolor suscipit incidunt natus, molestias ea cum consequatur dolorum excepturi voluptates et, ullam pariatur doloremque quibusdam quam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum velit officiis modi unde omnis explicabo neque sapiente eveniet excepturi facilis aliquid dolorem, dignissimos placeat aperiam nesciunt delectus eligendi id commodi.</p>
+            </div>
+            
+        </section>
+
+        <section class="projects" id="projects">
+            <div class="projectsHeader">
+                <h2>Projects</h2>
+            </div>
+            <div class="images">
+                <div class="imgContainer"></div>
+                    <div id="img1" class="imgBox">
+                        <div class="textBox">
+                            <h3>HTML5!</h3>
+                        </div>
+                    </div>
+                <div class="imgContainer">
+                    <div id="img2" class="imgBox">
+                        <div class="textBox">
+                            <h3>CSS!</h3>
+                        </div>
+                    </div>
+                    <div id="img3" class="imgBox">
+                        <div class="textBox">
+                            <h3>JAVASCRIPT!</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="imgContainer">
+                    <div id="img4" class="imgBox">
+                        <div class="textBox">
+                            <h3>REACT!</h3>
+                        </div>
+                    </div>
+                    <div id="img5" class="imgBox">
+                        <div class="textBox">
+                            <h3>PYTHON!</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
-         <footer id="footer">
-                <h2 class="contact">Contact Me</h2>
-                <!-- <div class="vl3"></div> -->
-                <div class="socials">
-                <ul>
-                    <li class="links">Phone Number</li>
-                    <li class="links">Email</li>
-                    <li class="links">GitHub</li>
-                    <li class="links">LinkedIn</li>
-                    <li class="links">Twitter</li>
-                </ul>
+    <footer>
+        <section class="contact" id="contact">
+            <div class="contactHeader">
+                <h2>Contact Me</h2>
             </div>
-            </footer>
+            <div class="contactList">
+                <ul>
+                    <li><a href="tel:(916)513-8997">(916)267-9483</a></li>
+                    <li><a href="mailto:pasha.fomin11@gmail.com">fominivan94@gmail.com</a></li>
+                    <li><a href="https://github.com/fominivan1" target="_blank">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/fominivan1/" target="_blank">LinkedIn</a></li>\
+                </ul>
+            </div>   
+        </section>
+    </footer>
 </body>
 </html>
